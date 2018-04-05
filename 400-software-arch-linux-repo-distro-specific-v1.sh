@@ -18,6 +18,8 @@ set -e
 
 echo "DESKTOP SPECIFIC APPLICATIONS"
 
+sudo pacman -S --noconfirm --needed kde-applications-meta
+
 echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed gnome-multi-writer
