@@ -1,4 +1,4 @@
-# ArcoLinuxD Plasma desktop
+# ArcoLinuxD Gnome desktop
 
 # Start by installing the latest ArcoLinuxD installation
 
