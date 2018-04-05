@@ -1,0 +1,141 @@
+[media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom13/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom14/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom15/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom16/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom17/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom18/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom19/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom20/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom21/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom22/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom23/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom24/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom25/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom26/']
+
+[media-keys/custom-keybindings/custom8]
+binding='<Super>F6'
+command='vlc'
+name='vlc'
+
+[media-keys/custom-keybindings/custom0]
+binding='<Primary><Alt>t'
+command='termite'
+name='termite'
+
+[media-keys/custom-keybindings/custom9]
+binding='<Super>F7'
+command='virtualbox'
+name='virtualbox'
+
+[media-keys/custom-keybindings/custom1]
+binding='<Super>Return'
+command='termite'
+name='termite'
+
+[media-keys/custom-keybindings/custom2]
+binding='<Primary><Alt>s'
+command='spotify'
+name='spotify'
+
+[media-keys/custom-keybindings/custom3]
+binding='<Primary><Alt>v'
+command='vivaldi-stable'
+name='vivaldi'
+
+[media-keys/custom-keybindings/custom4]
+binding='<Super>F2'
+command='atom'
+name='atom'
+
+[media-keys/custom-keybindings/custom5]
+binding='<Super>F3'
+command='inkscape'
+name='inkscape'
+
+[media-keys/custom-keybindings/custom10]
+binding='<Super>F8'
+command='nautilus'
+name='nautilus'
+
+[media-keys/custom-keybindings/custom6]
+binding='<Super>F4'
+command='gimp'
+name='gimp'
+
+[media-keys/custom-keybindings/custom11]
+binding='<Super>F9'
+command='evolution'
+name='evolution'
+
+[media-keys/custom-keybindings/custom7]
+binding='<Super>F5'
+command='meld'
+name='meld'
+
+[media-keys/custom-keybindings/custom12]
+binding='<Shift><Super>d'
+command="dmenu_run -i -nb '#191919' -nf '#2aa198' -sb '#2aa198' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'"
+name='dmenu'
+
+[media-keys/custom-keybindings/custom20]
+binding='<Alt>Right'
+command='variety -n'
+name='variety next'
+
+[media-keys/custom-keybindings/custom13]
+binding='<Primary><Shift>Escape'
+command='gnome-system-monitor'
+name='gnome-system-monitor'
+
+[media-keys/custom-keybindings/custom21]
+binding='<Alt>Left'
+command='variety -p'
+name='variety previous'
+
+[media-keys/custom-keybindings/custom14]
+binding='<Primary><Alt>m'
+command='gnome-control-center'
+name='gnome-control-center'
+
+[media-keys/custom-keybindings/custom22]
+binding='<Alt>Up'
+command='variety --toggle-pause'
+name='variety -pause'
+
+[media-keys/custom-keybindings/custom15]
+binding='<Primary><Alt>u'
+command='pavucontrol'
+name='pavucontrol'
+
+[media-keys/custom-keybindings/custom23]
+binding='<Shift><Super>Return'
+command='nautilus'
+name='nautilus'
+
+[media-keys/custom-keybindings/custom16]
+binding='<Alt>n'
+command='variety -n'
+name='variety next'
+
+[media-keys/custom-keybindings/custom24]
+binding='<Primary><Alt>b'
+command='nautilus'
+name='nautilus'
+
+[media-keys/custom-keybindings/custom17]
+binding='<Alt>p'
+command='variety -p'
+name='variety previous'
+
+[media-keys/custom-keybindings/custom25]
+binding='<Primary>Break'
+command='gnome-screenshot -i'
+name='gnome-screenhot'
+
+[media-keys/custom-keybindings/custom18]
+binding='<Alt>t'
+command='variety -t'
+name='variety trash'
+
+[media-keys/custom-keybindings/custom26]
+binding='<Primary><Alt>f'
+command='firefox'
+name='firefox'
+
+[media-keys/custom-keybindings/custom19]
+binding='<Alt>f'
+command='variety -f'
+name='variety -f'
+
+[xsettings]
+antialiasing='grayscale'
+hinting='slight'
