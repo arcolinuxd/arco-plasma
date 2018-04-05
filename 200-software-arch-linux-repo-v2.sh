@@ -148,6 +148,7 @@ sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  a
 
 ###############################################################################################
 
+sudo pacman -S --noconfirm --needed kde-applications-meta
 
 echo "################################################################"
 echo "#### Software from standard Arch Linux Repo installed  #########"
