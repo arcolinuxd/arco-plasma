@@ -22,10 +22,6 @@ sudo pacman -S --noconfirm --needed kde-applications-meta
 
 echo "Installing category Accessories"
 
-sudo pacman -S --noconfirm --needed gnome-multi-writer
-sudo pacman -S --noconfirm --needed gnome-pie
-sudo pacman -S --noconfirm --needed galculator
-
 echo "Installing category Development"
 
 echo "Installing category Education"
@@ -38,23 +34,16 @@ echo "Installing category Internet"
 
 echo "Installing category Multimedia"
 
-sudo pacman -S --noconfirm --needed gnome-mplayer
-sh AUR/install-mpd-ncmpcpp-v*.sh
-
 echo "Installing category Office"
 
 echo "Installing category Other"
 
 echo "Installing category System"
 
-sudo pacman -S dmenu --noconfirm --needed
 sudo pacman -S imagemagick --noconfirm --needed
 sudo pacman -S w3m --noconfirm --needed
 
-sudo pacman -S --noconfirm --needed nautilus-image-converter
 
-#variety
-sudo pacman -S --noconfirm --needed libappindicator-gtk3
 echo "################################################################"
 echo "####    Software from Arch Linux Repository installed     ######"
 echo "################################################################"

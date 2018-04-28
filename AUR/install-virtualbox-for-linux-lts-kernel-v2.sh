@@ -13,10 +13,10 @@ set -e
 #
 ##################################################################################################################
 
-echo "AUR - DESKTOP SPECIFIC APPLICATIONS "
-
-sh AUR/install-yad-v*.sh
+sudo pacman -S --noconfirm --needed virtualbox
+sudo pacman -S --noconfirm --needed virtualbox-host-dkms
+sudo pacman -S --noconfirm --needed linux-lts-headers
 
 echo "################################################################"
-echo "####       Software from AUR-DS folder installed          ######"
+echo "#########           You got to reboot.                 #########"
 echo "################################################################"
