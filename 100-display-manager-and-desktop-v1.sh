@@ -25,7 +25,7 @@ sudo pacman -Syyu
 sudo pacman -S sddm sddm-kcm --noconfirm --needed
 #sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
 #sudo pacman -S gdm
-sudo pacman -S plasma-meta --noconfirm --needed
+sudo pacman -S plasma --noconfirm --needed
 #sudo systemctl enable gdm.service -f
 #sudo systemctl enable lightdm.service -f
 sudo systemctl enable sddm.service -f
