@@ -19,12 +19,12 @@ echo "################################################################"
 echo
 
 #sudo pacman -S arcolinux-applications-git --noconfirm --needed
-sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
+#sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-awesome-git --noconfirm --needed
 sudo pacman -S arcolinux-bin-git --noconfirm --needed
 #sudo pacman -S arcolinux-bspwm-git --noconfirm --needed
 #sudo pacman -S arcolinux-common-git --noconfirm --needed
-sudo pacman -S arcolinux-config-git --noconfirm --needed
+#sudo pacman -S arcolinux-config-git --noconfirm --needed
 sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
 #sudo pacman -S arcolinux-faces-git --noconfirm --needed
@@ -32,7 +32,7 @@ sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
 #sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 #sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
-sudo pacman -S arcolinux-local-git --noconfirm --needed
+#sudo pacman -S arcolinux-local-git --noconfirm --needed
 #sudo pacman -S arcolinux-neofetch-ascii-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
