@@ -40,8 +40,13 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
+sudo pacman -S breeze-gtk --noconfirm --needed
+sudo pacman -S breeze-kde4 --noconfirm --needed
 sudo pacman -S imagemagick --noconfirm --needed
+sudo pacman -S kde-gtk-config --noconfirm --needed
 sudo pacman -S w3m --noconfirm --needed
+
+
 
 
 echo "################################################################"
