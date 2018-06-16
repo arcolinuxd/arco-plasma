@@ -15,10 +15,14 @@
 
 echo "Deleting all kde games"
 
+sudo pacman -Rc --noconfirm kdeedu-meta
+
 sudo pacman -R --noconfirm blinken
 sudo pacman -R --noconfirm kanagram
 sudo pacman -R --noconfirm khangman
-sudo pacman -R --noconfirm kdeedu-meta
+
+sudo pacman -Rc --noconfirm kdegames-meta
+
 sudo pacman -R --noconfirm lskat
 sudo pacman -R --noconfirm picmi
 sudo pacman -R --noconfirm palapeli
@@ -58,6 +62,11 @@ sudo pacman -R --noconfirm kajongg
 sudo pacman -R --noconfirm kbounce
 sudo pacman -R --noconfirm ksirk
 sudo pacman -R --noconfirm klines
+
+
+#Want the applications back - use this one
+#sudo pacman -S --noconfirm kde-applications-meta
+#sudo pacman -S --noconfirm kdeedu-meta
 
 
 echo "################################################################"
