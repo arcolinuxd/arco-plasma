@@ -69,6 +69,21 @@ sudo pacman -R --noconfirm klines
 #sudo pacman -S --noconfirm kdeedu-meta
 
 
+#Other groups to test out in the future
+
+ # kdeaccessibility
+ # kdeadmin
+ # kdebase
+ # kdegraphics
+ # kdemultimedia
+ # kdenetwork
+ # kdeconnect
+ # kdepim
+ # kdesdk
+ # kdeutils
+ # kdewebdev
+
+
 echo "################################################################"
 echo "###                 delete all kde games                    ####"
 echo "################################################################"
