@@ -76,10 +76,10 @@ sh AUR/install-inxi-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
 sh AUR/install-pamac-aur-v*.sh
-sh AUR/install-paper-icon-theme-git-v*.sh
-sh AUR/install-papirus-icon-theme-git-v*.sh
+#sh AUR/install-paper-icon-theme-git-v*.sh
+#sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-sardi-icons-v*.sh
-sh AUR/install-sardi-extra-icons-v*.sh
+#sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-screenkey-v*.sh
 sh AUR/install-surfn-icons-git-v*.sh
 #sh AUR/install-tamzen-font-git-v*.sh
