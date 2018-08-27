@@ -25,7 +25,7 @@ sudo pacman -Syyu
 #sudo pacman -S sddm sddm-kcm --noconfirm --needed
 sudo pacman -S lightdm arcolinux-lightdm-gtk-greeter arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
-sudo pacman -S plasma --noconfirm --needed
+sudo pacman -S plasma kdebase --noconfirm --needed
 sudo systemctl enable lightdm.service -f
 #sudo systemctl enable sddm.service -f
 sudo systemctl set-default graphical.target
