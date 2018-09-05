@@ -91,6 +91,7 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
+#sudo pacman -S --noconfirm --needed arc-gtk-theme
 #sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed bleachbit
@@ -127,6 +128,9 @@ sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
 #sudo pacman -S --noconfirm --needed terminator
 sudo pacman -S --noconfirm --needed termite
+#sudo pacman -S --noconfirm --needed thunar
+#sudo pacman -S --noconfirm --needed thunar-archive-plugin
+#sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler
@@ -146,6 +150,7 @@ sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
 
 ###############################################################################################
+
 
 echo "################################################################"
 echo "#### Software from standard Arch Linux Repo installed  #########"
