@@ -21,18 +21,18 @@ echo "#################################################"
 echo "Removing xcursor-breeze to avoid conflict with breeze"
 sudo pacman -R xcursor-breeze --noconfirm
 
-sudo pacman -Syyu
-#sudo pacman -S sddm sddm-kcm --noconfirm --needed
-sudo pacman -S lightdm arcolinux-lightdm-gtk-greeter arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
-sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
+sudo pacman -Syyu --noconfirm
+#installing displaymanager or login manager
+sudo pacman -S --noconfirm --needed lightdm
+sudo pacman -S --noconfirm --needed arcolinux-lightdm-gtk-greeter arcolinux-lightdm-gtk-greeter-settings
+sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git 
+#installing desktop environment
 sudo pacman -S plasma --noconfirm --needed
+#enabling displaymanager or login manager
 sudo systemctl enable lightdm.service -f
-#sudo systemctl enable sddm.service -f
 sudo systemctl set-default graphical.target
 
 
-echo "Remove anything you do not like from the installed applications"
+#Remove anything you do not like from the installed applications
 
-#sudo pacman -R --noconfirm ...
-#since we use lightdm we delete this to avoid a long wait in the systemsettings in startup and shutdown
-sudo pacman -R sddm sddm-kcm --noconfirm
+#sudo pacman -R ...
