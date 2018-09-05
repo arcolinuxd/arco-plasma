@@ -25,7 +25,8 @@ sudo pacman -Syyu --noconfirm
 #installing displaymanager or login manager
 sudo pacman -S --noconfirm --needed lightdm
 sudo pacman -S --noconfirm --needed arcolinux-lightdm-gtk-greeter arcolinux-lightdm-gtk-greeter-settings
-sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git 
+sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git
+sudo pacman -S --noconfirm --needed dolphin konsole
 #installing desktop environment
 sudo pacman -S plasma --noconfirm --needed
 #enabling displaymanager or login manager
