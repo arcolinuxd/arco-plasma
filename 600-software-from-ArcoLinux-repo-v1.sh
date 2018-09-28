@@ -82,7 +82,7 @@ echo "Retry if it times out - large files to download"
 
 sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed dropbox
-sudo pacman -S --noconfirm --needed insync
+#sudo pacman -S --noconfirm --needed insync
 sudo pacman -S --noconfirm --needed spotify
 
 echo "################################################################"
