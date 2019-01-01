@@ -36,6 +36,8 @@ echo "Installing category Internet"
 
 echo "Installing category Multimedia"
 
+sh AUR/install-mpd-ncmpcpp-v*.sh
+
 echo "Installing category Office"
 
 echo "Installing category Other"
