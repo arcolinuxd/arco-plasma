@@ -39,7 +39,8 @@ sudo pacman -S arcolinux-fonts-git --noconfirm --needed
 sudo pacman -S arcolinux-geany-git --noconfirm --needed
 #sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
 #sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
-#sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
+sudo pacman -S arcolinux-lightdm-gtk-greeter-plasma --noconfirm --needed
+sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 #sudo pacman -S arcolinux-local-git --noconfirm --needed
 #sudo pacman -S arcolinux-logo-git --noconfirm --needed
 sudo pacman -S arcolinux-mirrorlist-git --noconfirm --needed
