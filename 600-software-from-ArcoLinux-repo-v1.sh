@@ -32,6 +32,7 @@ sudo pacman -S arcolinux-bin-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-gnome-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-mate-git --noconfirm --needed
 sudo pacman -S arcolinux-config-plasma-git --noconfirm --needed
+#sudo pacman -S arcolinux-config-xmobar-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-xmonad-git --noconfirm --needed
 sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
@@ -78,6 +79,8 @@ sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
 #sudo pacman -S arcolinux-xfce4-panel-profiles-git --noconfirm --needed
 #sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmonad-git --noconfirm --needed
+#sudo pacman -S arcolinux-xmonad-polybar-git --noconfirm --needed
+#sudo pacman -S arcolinux-xmonad-xmobar-git --noconfirm --needed
 
 echo "################################################################"
 echo "####     Software from ArcoLinux Repository installed       ####"
