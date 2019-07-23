@@ -48,7 +48,10 @@ sudo pacman -S breeze-gtk --noconfirm --needed
 sudo pacman -S imagemagick --noconfirm --needed
 sudo pacman -S kde-gtk-config --noconfirm --needed
 sudo pacman -S libappindicator-gtk3 --noconfirm --needed
+sudo pacman -S packagekit-qt5 --noconfirm --needed
 sudo pacman -S w3m --noconfirm --needed
+
+
 
 
 
