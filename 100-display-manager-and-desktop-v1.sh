@@ -30,7 +30,8 @@ sudo pacman -S --noconfirm --needed arcolinux-lightdm-gtk-greeter-plasma arcolin
 sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git
 sudo pacman -S --noconfirm --needed dolphin konsole
 #installing desktop environment
-sudo pacman -S plasma --noconfirm --needed
+sudo pacman -S plasma-meta --noconfirm --needed
+sudo pacman -S cryfs --noconfirm --needed
 #enabling displaymanager or login manager
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
