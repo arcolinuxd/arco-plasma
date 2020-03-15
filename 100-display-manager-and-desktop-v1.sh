@@ -20,9 +20,6 @@ echo "Stop the installation with CTRL + C"
 echo "and run the alias - mirror in the terminal"
 echo "#################################################"
 
-echo "Removing xcursor-breeze to avoid conflict with breeze"
-sudo pacman -R xcursor-breeze --noconfirm
-
 sudo pacman -Syyu --noconfirm
 #installing displaymanager or login manager
 sudo pacman -S --noconfirm --needed lightdm
