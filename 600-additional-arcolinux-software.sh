@@ -52,26 +52,15 @@ func_category() {
 
 ###############################################################################
 
-func_category Arcolinux
+func_category Arcolinux-Desktop
 
 list=(
 arcolinux-arc-kde
-arcolinux-bin-git
 arcolinux-config-plasma-git
-arcolinux-hblock-git
-arcolinux-local-xfce4-git
-arcolinux-kvantum-git
-arcolinux-local-applications-git
-arcolinux-plank-git
-arcolinux-plank-themes-git
+arcolinux-qt5-plasma-git
 arcolinux-plasma-dconf-git
 arcolinux-plasma-kservices-git
 arcolinux-plasma-git
-arcolinux-qt5-plasma-git
-arcolinux-root-git
-arcolinux-termite-themes-git
-arcolinux-variety-git
-arcolinux-xfce4-panel-profiles-git
 )
 
 count=0
@@ -80,6 +69,26 @@ for name in "${list[@]}" ; do
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
 	func_install $name
 done
+###############################################################################
+
+func_category Arcolinux-General
+
+list=(
+arcolinux-bin-git
+arcolinux-hblock-git
+arcolinux-root-git
+arcolinux-termite-themes-git
+arcolinux-variety-git
+)
+
+count=0
+for name in "${list[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
+	func_install $name
+done
+
+###############################################################################
 
 tput setaf 6;echo "################################################################"
 echo "Copying all files and folders from /etc/skel to ~"
