@@ -68,7 +68,6 @@ ocs-url
 okular
 packagekit-qt5
 partitionmanager
-plasma-meta
 surfn-arc-breeze-icons-git
 systemd-kcm
 w3m
