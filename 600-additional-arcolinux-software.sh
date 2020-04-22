@@ -55,17 +55,19 @@ func_category() {
 func_category Arcolinux
 
 list=(
-arcolinux-arc-themes-nico-git
+arcolinux-arc-kde
 arcolinux-bin-git
+arcolinux-config-plasma-git
 arcolinux-hblock-git
-arcolinux-faces-git
 arcolinux-local-xfce4-git
 arcolinux-kvantum-git
 arcolinux-local-applications-git
-arcolinux-nitrogen-git
 arcolinux-plank-git
 arcolinux-plank-themes-git
-arcolinux-qt5-git
+arcolinux-plasma-dconf-git
+arcolinux-plasma-kservices-git
+arcolinux-plasma-git
+arcolinux-qt5-plasma-git
 arcolinux-root-git
 arcolinux-termite-themes-git
 arcolinux-variety-git

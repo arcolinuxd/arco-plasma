@@ -55,7 +55,6 @@ thunar-archive-plugin
 thunar-volman
 arcolinux-xfce-git
 plasma-meta
-cryfs
 dolphin
 konsole
 spectacle

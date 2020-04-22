@@ -55,11 +55,22 @@ func_category() {
 func_category Additional-distro-specific
 
 list=(
-dmenu
-gtk-engine-murrine
-lxrandr
-menulibre
-mugshot
+ark
+cryfs
+dolphin-plugins
+ffmpegthumbs
+gwenview
+kde-gtk-config
+kdeadmin-meta
+kdebase-meta
+kdeconnect
+ocs-url
+okular
+packagekit-qt5
+partitionmanager
+plasma-meta
+surfn-arc-breeze-icons-git
+systemd-kcm
 w3m
 hardcode-fixer-git
 )
