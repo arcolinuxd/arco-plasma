@@ -60,6 +60,7 @@ cryfs
 dolphin-plugins
 ffmpegthumbs
 gwenview
+imagemagick
 kde-gtk-config
 kdeadmin-meta
 kdebase-meta
