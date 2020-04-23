@@ -51,10 +51,6 @@ lightdm
 arcolinux-lightdm-gtk-greeter-plasma
 arcolinux-lightdm-gtk-greeter-settings
 arcolinux-wallpapers-git
-thunar
-thunar-archive-plugin
-thunar-volman
-arcolinux-xfce-git
 plasma-meta
 dolphin
 konsole

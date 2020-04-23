@@ -61,6 +61,10 @@ arcolinux-qt5-plasma-git
 arcolinux-plasma-dconf-git
 arcolinux-plasma-kservices-git
 arcolinux-plasma-git
+thunar
+thunar-archive-plugin
+thunar-volman
+arcolinux-xfce-git
 )
 
 count=0
