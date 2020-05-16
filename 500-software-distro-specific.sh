@@ -62,8 +62,7 @@ ffmpegthumbs
 gwenview
 imagemagick
 kde-gtk-config
-kdeadmin-meta
-kdebase-meta
+kde-system-meta
 kdeconnect
 ocs-url
 okular
