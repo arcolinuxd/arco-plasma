@@ -54,6 +54,7 @@ dolphin
 konsole
 spectacle
 yakuake
+kinit
 )
 
 count=0
