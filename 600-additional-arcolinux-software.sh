@@ -58,7 +58,6 @@ list=(
 arcolinux-arc-kde
 arcolinux-config-plasma-git
 arcolinux-qt5-plasma-git
-arcolinux-plasma-dconf-git
 arcolinux-plasma-kservices-git
 arcolinux-plasma-git
 thunar
