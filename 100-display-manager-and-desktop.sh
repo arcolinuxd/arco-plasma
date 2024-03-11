@@ -49,12 +49,11 @@ echo "Installation of the core software"
 list=(
 sddm
 arcolinux-wallpapers-git
-plasma-meta
+plasma
 dolphin
 konsole
 spectacle
 yakuake
-kinit
 )
 
 count=0
