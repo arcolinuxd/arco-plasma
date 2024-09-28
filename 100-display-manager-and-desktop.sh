@@ -72,7 +72,7 @@ kdenetwork-filesharing
 ktorrent
 ocs-url
 okular
-packagekit-qt5
+packagekit-qt6
 plasma
 spectacle
 surfn-plasma-dark-icons-git

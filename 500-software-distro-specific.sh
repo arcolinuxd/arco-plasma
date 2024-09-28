@@ -66,7 +66,6 @@ kde-system-meta
 kdeconnect
 ocs-url
 okular
-packagekit-qt5
 partitionmanager
 surfn-arc-breeze-icons-git
 systemd-kcm
